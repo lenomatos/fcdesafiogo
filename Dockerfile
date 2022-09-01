@@ -8,7 +8,7 @@ RUN go mod download
 COPY *.go ./
 RUN go build -o /go-hello
 
-FROM alpine:2.6
+FROM scratch
 WORKDIR /
 COPY --from=builder /go-hello /go-hello
 

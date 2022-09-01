@@ -1,6 +1,6 @@
 ## Sobre
 
-O menor tamanho que consegui montar foi de 6.26 MB.
+O menor tamanho que consegui montar foi de 1.76 MB.
 
 DockerHub pull:
 
